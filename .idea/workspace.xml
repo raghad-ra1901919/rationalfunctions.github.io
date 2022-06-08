@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77314047-9bed-48c4-a0c9-d6b199aa747f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/.idea/Code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/models/student.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/models/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/data/users.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/excellent .jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/good.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/graph.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/homep1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/homep10.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/homep11.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/homep12.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/homep13.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/homep14.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/homep15.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/homep16.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/homep2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/homep3.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/homep4.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/homep5.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/homep6.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/homep7.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/homep8.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/homep9.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/media/veryGood.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/repositories/StudentRepository.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/repositories/UserRepository.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/scripts/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/scripts/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/scripts/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/scripts/statistics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/scripts/survey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/scripts/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/statistics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/styles/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/styles/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/styles/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/styles/statistics.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/styles/survey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/styles/test.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/survey.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/public/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/repository/student-repo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/repository/users-repo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/service/student-service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/service/user-service.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2A5ZbRVRxDCpQzR82osr3HFsFIJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77314047-9bed-48c4-a0c9-d6b199aa747f" name="Changes" comment="" />
+      <created>1654301482992</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654301482992</updated>
+      <workItem from="1654301485217" duration="639000" />
+      <workItem from="1654410419458" duration="620000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
