@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=PT+Mono&family=Prata&family=Titillium+Web:ital,wght@1,200&display=swap" rel="stylesheet">
+    <script src="scripts/common.js"></script>
+    <script src="scripts/home.js"></script>
+    <link rel="stylesheet" href="styles/home.css">
+    <title>Document</title>
+</head>
+<body class="fadeout">
+<nav class="navbar">
+    <a href="home.html" class="title">Rational Functions</a>
+    <ul>
+        <li class="selected"><a href="home.html">Home</a></li>
+            <li><a href="test.html" >Test</a></li>
+            <span class="exit">&#10006</span>
+    </ul>
+    </ul>
+    <span class="hamburger">&#9776</span>
+</nav>
+
+<br>
+
+<div class="container" >
+    <div class="progree-container">
+        <div class="progress" id="progress"> </div>
+        <div class="circle active" id="i1" > <i class="item" >ch1</i> </div>
+        <div class="circle" id="i2">         <i class="item">ch2</i> </div>
+        <div class="circle" id="i3">         <i class="item">ch3</i> </div>
+        <div class="circle" id="i4">         <i class="item">ch4</i> </div>
+        <div class="circle" id="i5">         <i class="item">ch5</i> </div>
+        <div class="circle" id="i6">         <i class="item">ch6</i> </div>
+        <div class="circle" id="i7">         <i class="item">ch7</i> </div>
+        <div class="circle" id="i8">         <i class="item">ch8</i> </div>
+        <div class="circle" id="i9">         <i class="item">ch9</i> </div>
+        <div class="circle" id="i10">        <i class="item">ch10</i> </div>
+        <div class="circle" id="i11">        <i class="item">ch11</i> </div>
+        <div class="circle" id="i12">        <i class="item">ch12</i> </div>
+        <div class="circle" id="i13">        <i class="item">ch13</i> </div>
+        <div class="circle" id="i14">        <i class="item">ch14</i> </div>
+        <div class="circle" id="i15">        <i class="item">ch15</i> </div>
+        <div class="circle" id="i16">        <i class="item">ch16</i> </div>
+    </div>
+    <h1 id="test">  </h1>
+</div>
+
+
+
+<br>
+
+<main>
+    <div id="1" class="content" style="display: block;">
+        <audio controls>
+            <source src="media/homep1.mp3" type="audio/mpeg">
+        </audio>
+        <p>
+        <h3>Rational Function</h3>
+        <br>A rational function is a ratio of polynomials where the polynomial in the denominator shouldn't be equal to zero. Isn't it resembling the definition of a rational number (which is of the form p/q, where q ≠ 0)?
+        <br>Did you know Rational functions find application in different fields in our day-to-day life?
+        <br>Not only do they describe the relationship between speed, distance, and time, but also are widely used in the medical and engineering industry.
+        <br>Let us learn more about rational functions along with how to graph it, its domain, range, asymptotes, etc along with solved examples.
+        </p>
+    </div>
+
+    <div id="2" class="content">
+        <audio controls>
+            <source src="media/homep2.mp3" type="audio/mpeg">
+        </audio>
+        <p>
+        <h3>What is a Rational Function?</h3>
+        <br>A rational function is a function that is the ratio of polynomials.
+        <br>Any function of one variable, x, is called a rational function if, it can be represented as f(x) = p(x)/q(x), where p(x) and q(x) are polynomials such that q(x) ≠ 0.
+        <br>For example, f(x) = (x<sup>2</sup> + x - 2) / (2x<sup>2</sup> - 2x - 3) is a rational function and here, 2x<sup>2</sup> - 2x - 3 ≠ 0.
+        <br><br>We know that every constant is a polynomial and hence the numerators of a rational function can be constants also.
+        <br>For example, f(x) = 1/(3x+1) can be a rational function.
+        <br><br>But note that the denominators of rational functions cannot be constants.
+        <br>For example, f(x) = (2x + 3) / 4 is NOT a rational function, rather, it is a linear function.
+
+        </p>
+    </div>
+
+    <div id="3" class="content">
+        <audio controls>
+            <source src="media/homep3.mp3" type="audio/mpeg">
+        </audio>
+        <p>
+        <h3>How to identify a Rational Function?</h3>
+        <br>By the definition of the rational function (from the previous section), if either the numerator or denominator is not a polynomial, then the fraction formed does NOT represent a rational function.
+        <br>For example, f(x) = (4 + √x)/(2-x), g(x) = (3 + (1/x)) / (2 - x), etc are NOT rational functions as numerators in these examples are NOT polynomials.
+        </p>
+    </div>
+
+    <div id="4" class="content">
+        <audio controls>
+            <source src="media/homep4.mp3" type="audio/mpeg">
+        </audio>
+        <p>
+        <h3>Domain of a Rational Function</h3>
+        <br>The domain of a rational function is the set of all x-values that the function can take. To find the domain of a rational function y = f(x):
+        <br>
+        •	Set the denominator ≠ 0 and solve it for x.
+        <br>
+        •	Set of all real numbers other than the values of x mentioned in the last step is the domain.
+        <br><br>
+        <b> Example </b>: Find the domain of f(x) = (2x + 1) / (3x - 2).
+        <br>
+        <br>
+        <b>Solution</b>:
+        <div class="solution" id="solution-4">
+            <br>
+            We set the denominator not equal to zero.
+            3x - 2 ≠ 0
+            x ≠ 2/3
+            <br>
+            Thus, the domain = {x ∈ R | x ≠ 2/3}
+        </div>
+        <div class="solution-button">
+            <a class="show-answer-button" id = "show-answer-button-4" href="#">Show Answer</a>
+        </div>
+
+        </p>
+    </div>
+
+    <div id="5" class="content">
+        <audio controls>
+            <source src="media/homep5.mp3" type="audio/mpeg">
+        </audio>
+        <p>
+        <h3>Range of a Rational Function</h3>
+        <br>The range of a rational function is the set of all outputs (y-values) that it produces. To find the range of a rational function y= f(x):
+        <br>
+        •	If we have f(x) in the equation, replace it with y.
+        <br>
+        •	Solve the equation for x.
+        <br>
+        •	Set the denominator of the resultant equation ≠ 0 and solve it for y.
+        <br>
+        •	Set of all real numbers other than the values of y mentioned in the last step is the range.
+        <br><br>
+        <b>Example</b>: Find the range of f(x) = (2x + 1) / (3x - 2).
+        <br>
+        <b>Solution</b>:
+        <br>
+        <div class="solution" id="solution-5">
+            <br>
+            Let us replace f(x) with y. Then y = (2x + 1) / (3x - 2). Now, we will solve this for x.
+            <br>(3x - 2) y = (2x + 1)
+            <br>3xy - 2y = 2x + 1
+            <br>3xy - 2x = 2y + 1
+            <br>x (3y - 2) = (2y + 1)
+            <br>x = (2y + 1) / (3y - 2)
+            <br>Now (3y - 2) ≠ 0
+            <br>y ≠ 2/3
+            <br>So the range = {y ∈ R | y ≠ 2/3}
+        </div>
+        <div class="solution-button">
+            <a class="show-answer-button" id = "show-answer-button-5" href="#">Show Answer</a>
+        </div>
+
+        </p>
+    </div>
+
+    <div id="6" class="content">
+        <audio controls>
+            <source src="media/homep6.mp3" type="audio/mpeg">
+        </audio>
+        <p>
+        <h3>Holes of a Rational Function</h3>
+        <br>The holes of a rational function are points that seem that they are present on the graph of the rational function but they are actually not present. They can be obtained by setting the linear factors that are common factors of both numerator and denominator of the function equal to zero and solving for x. We can find the corresponding y-coordinates of the points by substituting the x-values in the simplified function. Every rational function does NOT need to have holes. Holes exist only when numerator and denominator have linear common factors.
+        <br><br>
+        <b>Example</b>: Find the holes of the function:
+        <br>f(x) = (x<sup>2</sup> + 5x + 6) / (x<sup>2</sup> + x - 2).
+        <br>
+        <b>Solution</b>:
+        <div class="solution" id="solution-6">
+            <br>
+            <br>
+            Let us factorize the numerator and denominator and see whether there are any common factors.
+            <br>f(x) = [ (x + 2)(x + 3) ] / [ (x + 2) (x - 1) ]
+            <br>= [ ̶(̶x̶ ̶+̶ ̶2̶)̶(x + 3) ] / [ ̶(̶x̶ ̶+̶ ̶2̶)̶ (x - 1) ]
+            <br>= (x + 3) / (x - 1)
+            <br>Since (x + 2) was striked off, there is a hole at x = -2. Its y-coordinate is f(-2) = (-2 + 3) / (-2 - 1) = -1/3.
+            <br>Thus, there is a hole at (-2, -1/3).
+        </div>
+        <div class="solution-button">
+            <a class="show-answer-button" id = "show-answer-button-6" href="#">Show Answer</a>
+        </div>
+
+        </p>
+
+    </div>
+
+    <div id="7" class="content">
+        <audio controls>
+            <source src="media/homep7.mp3" type="audio/mpeg">
+        </audio>
+        <p>
+        <h3>Vertical Asymptote of a Rational Function</h3>
+        <br>A vertical asymptote (VA) of a function is an imaginary vertical line to which its graph appears to be very close but never touch. It is of the form x = some number. Here, "some number" is closely connected to the excluded values from the domain. But note that there cannot be a vertical asymptote at x = some number if there is a hole at the same number. A rational function may have one or more vertical asymptotes. So to find the vertical asymptotes of a rational function:
+        <br>•	Simplify the function first to cancel all common factors (if any).
+        <br>•	Set the denominator = 0 and solve for (x) (or equivalently just get the excluded values from the domain by avoiding the holes).
+        <br><br><b>Example:</b> Find the vertical asymptotes of the function f(x) = (x<sup>2</sup> + 5x + 6) / (x<sup>2</sup> + x - 2).
+        <br><b>Solution:</b>
+        <br>
+        <div class="solution" id="solution-7">
+            <br>We have already seen that this function simplifies to f(x) = (x + 3) / (x - 1).
+            <br>Setting the denominator to 0, we get
+            <br>x - 1 = 0
+            <br>x = 1
+            <br>Thus, there is a VA of the given rational function is, x = 1.
+        </div>
+        <div class="solution-button">
+            <a class="show-answer-button" id = "show-answer-button-7" href="#">Show Answer</a>
+        </div>
+        </p>
+    </div>
+
+    </div>
+
+    <div id="8" class="content">
+        <audio controls>
+            <source src="media/homep8.mp3" type="audio/mpeg">
+        </audio>
+        <p>
+        <h3>Horizontal Asymptote of a Rational Function</h3>
+        <br>A horizontal asymptote (HA) of a function is an imaginary horizontal line to which its graph appears to be very close but never touch. It is of the form y = some number. Here, "some number" is closely connected to the excluded values from the range. A rational function can have at most one horizontal asymptote. Easy way to find the horizontal asymptote of a rational function is using the degrees of the numerator (N) and denominators (D).
+        <br><br>•	If N < D, then there is a HA at y = 0.
+        <br>•	If N > D, then there is no HA.
+        <br>•	If N = D, then the HA is y = ratio of the leading coefficients.
+        <br><br><b>Example:</b> Find the horizontal asymptote (if any) of the function f(x) = (x<sup>2</sup> + 5x + 6) / (x<sup>2</sup> + x - 2).
+        <br><b>Solution:</b>
+        <div class="solution" id="solution-8">
+            <br>
+            <br>Here the degree of the numerator is, N = 2, and the degree of the denominator is, D = 2.
+            <br>Since N = D, the HA is y = (leading coefficient of numerator) / (leading coefficient of denominator) = 1/1 = 1.
+            <br>Thus, the HA is y = 1.
+        </div>
+        <div class="solution-button">
+            <a class="show-answer-button" id = "show-answer-button-8" href="#">Show Answer</a>
+        </div>
+        </p>
+    </div>
+
+    </div>
+
+    <div id="9" class="content">
+        <audio controls>
+            <source src="media/homep9.mp3" type="audio/mpeg">
+        </audio>
+        <p>
+        <h3>Slant (Oblique) Asymptote of a Rational Function</h3>
+        <br>A slant asymptote is also an imaginary oblique line to which a part of the graph appears to touch. <br>A rational function has a slant asymptote only when the degree of the numerator (N) is exactly one greater than the degree of the denominator (D). Its equation is y = quotient that is obtained by dividing the numerator by denominator using the long division.
+        <br><br> <b>Example</b>: Find the slant asymptote of the function f(x) = x<sup>2</sup>/(x+1).
+        <br><b>Solution</b>:
+        <div class="solution" id="solution-9">
+            <br>
+            <br>Here the degree of numerator is 2 and that of denominator = 1. So it has a slant asymptote.
+            <br>Let us divide x<sup>2</sup> by (x + 1) by long division (or we can use synthetic division as well).
+            <br><br>
+            Thus, the slant asymptote is y = x - 1.
+        </div>
+        <div class="solution-button">
+            <a class="show-answer-button" id = "show-answer-button-9" href="#">Show Answer</a>
+        </div>
+        </p>
+    </div>
+
+    </div>
+
+    <div id="10" class="content">
+        <audio controls>
+            <source src="media/homep10.mp3" type="audio/mpeg">
+        </audio>
+        <p>
+        <h3>Graphing Rational Functions</h3>
+        </p>
+        <br>Here are the steps for graphing a rational function:
+        <br><br> •	Identify and draw the vertical asymptote using a dotted line.
+        <br>•	Identify and draw the horizontal asymptote using a dotted line.
+        <br>•	Plot the holes (if any)
+        <br>•	Find x-intercept (by using y = 0) and y-intercept (by x = 0) and plot them.
+        <br>•	Draw a table of two columns x and y and place the x-intercepts and vertical asymptotes in the table. Then take some random numbers in the x-column on either side of each of the x-intercepts and vertical asymptotes.
+        <br>•	Compute the corresponding y-values by substituting each of them in the function.
+        <br>•	Plot all points from the table and join them curves without touching the asymptotes.
+    </div>
+
+    </div>
+
+    <div id="11" class="content">
+        <audio controls>
+            <source src="media/homep11.mp3" type="audio/mpeg">
+        </audio>
+        <p>
+        <h3>Graphing Rational Function (Example)</h3>
+        <br>
+        <b>Example</b>: Graph the rational function f(x) = (x<sup>2</sup> + 5x + 6) / (x<sup>2</sup> + x - 2).
+        <br> <b>Solution</b>:
+        <div class="solution" id="solution-11">
+            <br>We have already identified that its VA is x = 1, its HA is y = 1, and the hole is at (-2, -1/3).
+            <br>We use dotted lines for asymptotes so that we can take care that the graph doesn't touch those lines. Note that, the simplified form of the given function is, f(x) = (x + 3) / (x - 1).
+            <br>Now, we will find the intercepts.
+            <br>•	For x-intercept, put y = 0. Then we get 0 = (x + 3) / (x - 1) ⇒ x + 3 = 0 ⇒ x = -3. So the x-intercept is at (-3, 0).
+            <br>•	For y-intercept, put x = 0. Then we get y = (0 + 3) / (0 - 1) ⇒ y = -3. So the y-intercept is at (0, -3).
+            <br>We have the VA at x = 1 and x-intercept is at x = -3. Let us construct a table now with these two values in the column of x and some random numbers on either side of each of these numbers -3 and 1.
+            <br><br>
+            <table>
+                <tr>
+                    <th>X</th>
+                    <th>Y</th>
+                </tr>
+                <tr>
+                    <td>-5</td>
+                    <td>y = (-5 + 3) / (-5 - 1) = 0.33</td>
+                </tr>
+                <tr>
+                    <td>-4</td>
+                    <td>y = (-4 + 3) / (-4 - 1) = 0.2</td>
+                </tr>
+                <tr>
+                    <td>-3</td>
+                    <td>0 (x-int)</td>
+                </tr>
+                <tr>
+                    <td>-2</td>
+                    <td>y = (-2 + 3) / (-2 - 1) = -0.33</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>-3 (y-int)</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>VA</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>y = (2 + 3) / (2 - 1) = 5</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>y = (3 + 3) / (3 - 1) = 3</td>
+                </tr>
+            </table>
+            <br>
+            Let us plot all these points on the graph along with all asymptotes, hole, and intercepts.
+            <br> <br>
+            <img src="media/graph.png" alt="graph" class = "graph" width="400" height="350">
+        </div>
+        <div class="solution-button">
+            <a class="show-answer-button" id = "show-answer-button-11" href="#">Show Answer</a>
+        </div>
+        </p>
+    </div>
+
+    </div>
+
+    <div id="12" class="content">
+        <audio controls>
+            <source src="media/homep12.mp3" type="audio/mpeg">
+        </audio>
+        <p>
+        <h3>Inverse of a Rational Function</h3>
+        <br>To find the inverse of a rational function y = f(x):
+        <br>•	Replace f(x) with y.
+        <br>•	Interchange x and y.
+        <br>•	Solve the resultant equation for y.
+        <br>•	The result would give the inverse f<sup>-1</sup>(x).
+        <br><br><b>Example</b>: Find the inverse of the rational function f(x) = (2x - 1) / (x + 3).
+        <br><b>Solution</b>:
+        <div class="solution" id="solution-12">
+            <br>
+            <br>The given function can be written as:
+            <br>y = (2x - 1) / (x + 3)
+            <br>Interchanging x and y:
+            <br>x = (2y - 1) / (y + 3)
+            <br>Now, we will solve for y.
+            <br>x(y + 3) = 2y - 1
+            <br>xy + 3x = 2y - 1
+            <br>3x + 1 = 2y - xy
+            <br>3x + 1 = y (2 - x)
+            <br>y = (3x + 1) / (2 - x) = f<sup>-1</sup>(x)
+        </div>
+        <div class="solution-button">
+            <a class="show-answer-button" id = "show-answer-button-12" href="#">Show Answer</a>
+        </div>
+        </p>
+    </div>
+
+    </div>
+
+    <div id="13" class="content">
+        <audio controls>
+            <source src="media/homep13.mp3" type="audio/mpeg">
+        </audio>
+        <p>
+        <h3>Important Notes on Rational Functions</h3>
+        <br><br>•	A rational function equation is of the form f(x) = P(x) / Q(x), where Q(x) ≠ 0.
+        <br>•	Every rational function has at least one vertical asymptote.
+        <br>•	Every rational function has at most one horizontal asymptote.
+        <br>•	Every rational function has at most one slant asymptote.
+        <br>•	The excluded values of the domain of a rational function help to identify the VAs.
+        <br>•	The excluded values of the range of a rational function help to identify the HAs.
+        <br>•	The linear factors that get canceled when a rational function is simplified would give us the holes.
+
+        </p>
+    </div>
+
+    <div id="14" class="content">
+        <audio controls>
+            <source src="media/homep14.mp3" type="audio/mpeg">
+        </audio>
+        <p>
+        <h3>Rational Functions Example</h3>
+        <br><b>Example 1</b>: Find the horizontal and vertical asymptotes of the rational function: f(x) = (3x<sup>3</sup> - 6x) / (x<sup>2</sup> - 5).
+        <br> <br>Solution:
+        <div class="solution" id="solution-14">
+            <br>The function is in the simplest form.
+            <br>For finding VA, set x<sup>2</sup> - 5 = 0. Solving this, we get x = ± √5.
+            <br>Since the degree of the numerator (3) > degree of the denominator (2), it has no HA.
+            <br><br><b>Answer</b>:
+            <br>VAs are at x = √5 and x = -√5 and there is no HA.
+        </div>
+        <div class="solution-button">
+            <a class="show-answer-button" id = "show-answer-button-14" href="#">Show Answer</a>
+        </div>
+        </p>
+    </div>
+
+    <div id="15" class="content">
+        <audio controls>
+            <source src="media/homep15.mp3" type="audio/mpeg">
+        </audio>
+        <p>
+        <h3>Rational Functions Example</h3>
+        <br><b>Example 2</b>: Find the x-intercepts of the rational function f(x) = (x2 + x - 2) / (x2 - 2x - 3).
+        <br><br><b>Solution</b>:
+        <div class="solution" id="solution-15">
+            <br>The given function can be written as:
+            <br>f(x) = [ (x + 2)(x - 1) ] / [(x - 3) (x + 1)]
+            <br>No cancellation is possible.
+            <br>To find the x-intercepts, substitute f(x) = 0.
+            <br>[ (x + 2)(x - 1) ] / [(x - 3) (x + 1)] = 0
+            <br>(x + 2)(x - 1) = 0
+            <br>x = -2; x = 1
+            <br><br><b>Answer</b>:
+            <br>The x-intercepts are (-2, 0) and (1, 0).
+        </div>
+        <div class="solution-button">
+            <a class="show-answer-button" id = "show-answer-button-15" href="#">Show Answer</a>
+        </div>
+        </p>
+    </div>
+
+    <div id="16" class="content">
+        <audio controls>
+            <source src="media/homep16.mp3" type="audio/mpeg">
+        </audio>
+        <p>
+        <h3>Rational Function Example</h3>
+        <br><b>Example 3</b>: Is f(x) = 2 + [1 / (x +3)] a rational function? Justify.
+        <br><br><b>Solution</b>:
+        <div class="solution" id="solution-16">
+            <br>We will add the fractions in the given function by making the common denominators.
+            <br>f(x) = 2 (x + 3) / (x + 3) + [1 / (x +3)]
+            <br>= (2x + 6 + 1) / (x + 3)
+            <br>= (2x + 7) / (x + 3)
+            <br>= p(x) / q(x), where both p(x) and q(x) are polynomials.
+            <br><br><b>Answer</b>:
+            <br>Hence, f(x) is a rational function.
+        </div>
+        <div class="solution-button">
+            <a class="show-answer-button" id = "show-answer-button-16" href="#">Show Answer</a>
+        </div>
+        </p>
+    </div>
+</main>
+
+<footer>
+    <div class="bottom-page-scrolls">
+        <a id="next" href="#">Next</a>
+        <a id="previous" href="#">Previous</a>
+    </div>
+</footer>
+
+</body>
+</html>
+

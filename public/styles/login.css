@@ -1,0 +1,67 @@
+body{
+    font-size: 50px;
+}
+
+main #role{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1s;
+}
+
+main > #role > select{
+    width: 50vh;
+    padding: 12px;
+    margin: 10px 0px 5px 0px;
+    cursor: pointer;
+    background-color: var(--color-light-purple);
+    color: black;
+    border-radius: 10px;
+    font-size: 35px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
+    font-family: 'PT Mono', monospace;
+}
+
+#student{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#teacher{
+    margin-top: 100px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#teacher > input {
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+main > #student > input {
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+#gender{
+    font-size: 25px;
+    width: 350px;
+    height: 8vh;
+    padding: 12px;
+    margin: 10px 0px 5px 0px;
+    cursor: pointer;
+    background-color: var(--color-light-purple);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
+    font-family: 'PT Mono', monospace;
+}
+
+#submit{
+    display: none;
+}

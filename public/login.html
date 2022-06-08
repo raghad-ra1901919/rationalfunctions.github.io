@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/login.css">
+    <script type="module" src="scripts/login.js"></script>
+</head>
+<body class="fadeout">
+<main>
+    <div id="role">
+    <label for="occupation">I am a ... </label>
+    <select id="occupation" name="occupation">
+        <option hidden disabled selected value></option>
+        <option value="pre-service teacher">Pre-Service Teacher</option>
+        <option value="in-service teacher">In-Service Teacher</option>
+        <option value="moderator">Moderator</option>
+    </select>
+    </div>
+
+    <div id="teacher">
+        <input type="text" id="username" placeholder="Username"/>
+        <input type="password" id="password" placeholder="Password"/>
+    </div>
+
+    <div id="buttons">
+        <div class="buttons">
+            <button type="submit" value="submit" id="submit">
+                Login
+            </button>
+        </div>
+    </div>
+</main>
+</body>
+</html>

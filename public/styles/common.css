@@ -1,0 +1,194 @@
+:root{
+    --color-white: #F5F5F5;
+    --color-lighter-purple: #C1CEFE;
+    --color-light-blue: #A0DDFF;
+    --color-light-purple: #7189FF;
+    --color-dark-purple: #624CAB;
+    --color-baby-blue: #D4F1F4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    background-color: var(--color-baby-blue);
+    font-family: 'PT Mono', monospace;
+    color: black;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition:opacity 3s;
+    opacity:1;
+}
+
+body.fadeout{
+    opacity: 0;
+}
+
+nav{
+    background-color: var(--color-lighter-purple);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 2vw;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
+}
+
+.title{
+    cursor: pointer;
+    font-size: 25px;
+    color: var(--color-light-purple);
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 50px;
+}
+
+nav ul li a{
+    color: var(--color-light-purple);
+    font-size: 20px;
+    transition-duration: 1s;
+}
+
+nav ul li a:hover{
+    color: var(--color-dark-purple);
+}
+
+nav span{
+    font-size: 30px;
+    display: none;
+}
+
+
+.selected{
+    text-decoration: underline;
+}
+
+.selected a{
+    color: var(--color-dark-purple);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+button{
+    font-family: 'PT Mono', monospace;
+    margin-top: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+    background-color: var(--color-light-purple);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: var(--color-dark-purple);
+}
+
+input[type="radio"]{
+    margin-top: 8px;
+    width: 1rem;
+    height: 1rem;
+    accent-color: var(--color-light-purple);
+}
+
+input[type=text], input[type=email], input[type=password] {
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+    width: 350px;
+    height: 8vh;
+    padding: 12px;
+    margin: 10px 0px 5px 0px;
+    box-sizing: border-box;
+    border: 2px solid var(--color-light-purple);
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
+}
+
+audio {
+    margin-bottom: 15px;
+    transition:all 0.5s;
+    -webkit-box-shadow:  2px var(--color-dark-purple);
+    box-shadow: 4px var(--color-dark-purple);
+    -webkit-border-radius:7px;
+    border-radius:5px;
+}
+
+audio:hover{
+    box-shadow: 15px 15px 20px var(--color-dark-purple);
+    -webkit-transform: scale(1.05);
+}
+
+
+@media (max-width: 700px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: -1000px;
+        right: 0px;
+        width: 110vw;
+        height: 20vh;
+        justify-content: space-evenly;
+        background-color: var(--color-lighter-purple);
+        transition: 0.5s ease;
+    }
+
+    .navigation{
+        top: 0;
+    }
+
+    nav ul span{
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: -1000px;
+        top: 0;
+        color: var(--color-light-purple);
+    }
+
+    nav span{
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 0;
+        color: var(--color-light-purple);
+    }
+
+    .inactive{
+        right: -1000px;
+    }
+
+    .active{
+        right: 20px;
+    }
+}

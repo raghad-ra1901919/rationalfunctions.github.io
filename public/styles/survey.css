@@ -1,0 +1,159 @@
+:root{
+    --color-infant-blue: #C2EBEF;
+}
+
+h1{
+    font-size: 45px;
+}
+
+body{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+main{
+    padding: 3vw 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+form > div {
+    margin-top: 15px;
+}
+
+.select select {
+    width: 35vh;
+    padding: 12px;
+    margin: 10px 0px 5px 0px;
+    cursor: pointer;
+    background-color: var(--color-light-purple);
+    color: var(--color-white);
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
+    font-family: 'PT Mono', monospace;
+}
+
+textarea {
+    font-family: 'PT Mono', monospace;
+    resize: none;
+    margin-top: 15px;
+    width: 100%;
+    height: 150px;
+    padding: 12px;
+    box-sizing: border-box;
+    border: var(--color-light-purple) solid 2px;
+    border-radius: 4px;
+    background-color: var(--color-white);
+    font-size: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
+}
+
+.survey{
+    display: flex;
+    flex-direction: column;
+}
+
+.survey-header div span{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    font-size: 15px;
+}
+
+.question{
+    display: flex;
+    flex-grow: 1;
+    font-size: 15px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.question > label{
+    flex: 2;
+    padding-right: 30px;
+    width: 100%;
+}
+
+.question label span{
+    text-decoration: solid underline;
+}
+
+.question > span{
+    flex: 0.1;
+}
+
+.question > div{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.question > div > span{
+    font-size: 12px;
+    max-width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.question > div > input{
+    font-size: 12px;
+    max-width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.survey-header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+form div div div:nth-child(even){
+    background-color: var(--color-infant-blue);
+    border-radius: 10px;
+}
+
+#popup{
+    opacity: 0;
+    background-color: var(--color-light-purple);
+    color: springgreen;
+    font-size: 17px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    max-width: 100%;
+    height: 100px;
+    max-height: 100%;
+    border-radius: 5px;
+    transition: visibility 0s 0.7s, opacity 0.7s linear;
+}
+
+#popup > div{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#popup > div > span{
+    padding-right: 10px;
+}
+
+
+@media (max-width: 1160px) {
+    
+}
+
+
+@media (max-width: 700px) {
+
+}

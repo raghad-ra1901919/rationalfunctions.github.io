@@ -1,0 +1,22 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "fs-browsers": "^1.1.6",
+    "fs-extra": "^10.1.0",
+    "mongoose": "^6.3.5",
+    "morgan": "^1.10.0",
+    "xlsexport": "^1.5.2",
+    "xlsx": "^0.18.5"
+  }
+}
